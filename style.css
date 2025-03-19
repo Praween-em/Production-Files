@@ -223,6 +223,20 @@
     transform: translateX(-100%); /* Move off-screen to the left */
 }
 
+.portbt{
+  padding: 15px;
+  border-radius: 40px;
+  background-color: #8dfe00;
+}
+.teams_card .portbt:hover{
+background-color: #6704f8;
+cursor: pointer;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: antiquewhite;
+transform: scale(1.8);
+font-weight: bolder;
+
+}
 
 
   

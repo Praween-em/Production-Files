@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Team</title>
-  <meta name="description" content="Praisol Agency offers custom web development services for small businesses with packages including SEO, responsive design, and analytics integration.">
+  <title>N Square Films</title>
+  <meta name="description" content="N Square Films is a film production company that produces high-quality films, helps createrts to showcase their talents and provides a platform for emerging filmmakers to showcase their work.">
   <meta name="msvalidate.01" content="613B2ACCCB56F6FA4C4CE433500E9EB5" />
   <meta name="google-site-verification" content="wK39eZARyYCd-YYlsCUYFobNko0Jjmi5jmxDN1LS5v4" />
-  <meta name="author" content="Praisol Agency">
+  <meta name="author" content="N Square Films">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -22,8 +22,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Chokokutai&family=Emblema+One&display=swap');
     </style>
 
-        
-  <!-- Navigation Bar -->
+    
   <nav>
     <ul class="sidebar"style="display:none";>
       <div class="logoandname" style="display: flex; flex-direction: row; width: auto; margin-top: 16px; margin-left: 5px;">
@@ -52,9 +51,9 @@
     </div>
     <div class="right" id="nav-links">
       <a href="index.html">Home</a>
-      <a style="color: #6704f8;;" href="team.html">Team</a>
+      <a  href="team.html">Team</a>
       <a href="portfolio.html">Portfolio</a>
-      <a href="carrers.html">Careers</a>
+      <a style="color: #6704f8;;" href="carrers.html">Careers</a>
       <a href="About.html">About us</a>
     </div>
   </nav>
@@ -67,28 +66,30 @@
     <div class="card-container">
       <div class="card">
         <h3> Assistant Director</h3>
-        <p>Work closely with the Director to manage schedules, coordinate scenes, and ensure smooth production flow.
+        <div id="lottie-animation1" style="max-width: fit-content; max-height: fit-content; justify-self:center ; padding-left:30px" ></div>
+        <p style="font-family: cursive;">Work closely with the Director to manage schedules, coordinate scenes, and ensure smooth production flow.
              Assist in script breakdowns and communicate with various departments.</p>
         <button onclick="sendEmail()" >Apply</button>
       </div>
       <div class="card">
         <h3>Script Writing</h3>
-
-        <p>Develop compelling scripts for films and series. Work with the creative team to refine dialogues and storylines.</p>
+        <div id="lottie-animation2" style="max-width: fit-content; max-height: fit-content; justify-self:center"></div>
+        <p style="font-family: cursive;" >Develop compelling scripts for films and series. Work with the creative team to refine dialogues and storylines.</p>
         <button onclick="sendEmail()" >Apply</button>
       </div>
 
       <div class="card">
         <h3>Typing Specalist</h3>
-       
-        <p>Responsible for transcribing scripts, formatting documents, and ensuring the accuracy of screenplays. Must be proficient in fast and accurate typing.</p>
+        
+        <div id="lottie-animation3" style="max-width: fit-content; max-height: fit-content; justify-self:center"></div>
+        <p  style="font-family: cursive;" >Responsible for transcribing scripts, formatting documents, and ensuring the accuracy of screenplays. Must be proficient in fast and accurate typing.</p>
         <button onclick="sendEmail()" >Apply</button>
       </div>
      
       <div class="card">
         <h3>Actors required</h3>
-       
-        <p>Responsible for transcribing scripts, formatting documents, and ensuring the accuracy of screenplays. Must be proficient in fast and accurate typing.</p>
+        <div id="lottie-animation4" style="max-width: fit-content; max-height: fit-content; justify-self:center"></div>
+        <p   style="font-family: cursive;" >Aspiring actors wishing to make it big in the film industry. We are looking for talented individuals who can bring characters to life.</p>
         <button onclick="sendEmail()" >Apply</button>
       </div>
   </section>
@@ -124,6 +125,43 @@
     }
   </script>
   
+
+
+  <script>
+    lottie.loadAnimation({
+      container: document.getElementById("lottie-animation1"), // Target container for animation
+      renderer: "svg", // Render type: "svg", "canvas", or "html"
+      loop: true, // Animation loops
+      autoplay: true, // Auto-play on load
+      path: "Animation2.json", // Path to Lottie JSON file
+    });
+  
+    lottie.loadAnimation({
+      container: document.getElementById("lottie-animation2"), // Another Lottie animation
+      renderer: "svg",
+      loop: true,
+      autoplay: true,
+      path: "Animation - 1742389447884.json",
+    });
+
+    lottie.loadAnimation({
+      container: document.getElementById("lottie-animation3"), // Another Lottie animation
+      renderer: "svg",
+      loop: true,
+      autoplay: true,
+      path: "Animation4.json",
+    });
+
+    lottie.loadAnimation({
+      container: document.getElementById("lottie-animation4"), // Another Lottie animation
+      renderer: "svg",
+      loop: true,
+      autoplay: true,
+      path: "Animation - 1742389820955.json",
+    });
+
+
+  </script>
  
 
 
